@@ -20,15 +20,6 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-		<meta name="description" content="Free image sharing, linking and tracking">
-		<meta name="keywords" content="image, share, hosting, free">
-		<meta name="robots" content="index, follow">
-		<meta name="copyright" content="Haschek Solutions">
-		<meta name="language" content="EN,DE">
-		<meta name="author" content="Haschek Solutions">
-		<meta name="distribution" content="global">
-		<meta name="rating" content="general">
-
         <style type="text/css">
             .picture {
                 <?php 
@@ -49,16 +40,12 @@
 
         <div class="container" id="headcontainer">
             <div class="row">
-                <div class="col-md-8">
-                    <a href="<?php echo PATH; ?>"><img src="<?php echo PATH; ?>css/imgs/logo.png" /></a>
-                    <h4><?php echo $slogan; ?></h4>
+                <div class="col-md-8 col-md-offset-2">
                     <div class="well">
                         <?php echo $content?>
                     </div>
                 </div>
             </div>
-            
-            <footer>(c)<?php echo date("y");?> by<br/><a href="https://haschek.solutions" target="_blank"><img height="30" src="<?php echo PATH; ?>css/imgs/hs_logo.png" /></a></footer>
       </div>
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
